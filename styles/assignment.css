@@ -93,3 +93,38 @@ nav{
     text-align: center;
     padding-bottom: 50px;
 }
+
+.container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;    
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.feedback-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+.users-feedback{
+    margin-top: 50px;
+}
+.user{
+    box-shadow: #252432 0px 0px 10px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;   
+    max-width: 1140px;
+}
