@@ -39,6 +39,6 @@ nav{
 }
 .header {
     background-image: url(../Assets/Hero-bg.png);
-    background-repeat: no-repeat;
-    
+    background-size: 1440px;
+
 }
