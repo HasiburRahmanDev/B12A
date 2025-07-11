@@ -52,11 +52,44 @@ nav{
     font-weight: bold;
 }
 .description {
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: 100;
     color: #252432;
 }
-.mg-mini{
+.img-mini{
     width: 403px;
     height: 328px;
     margin-right: 100px;
+    border-radius: 48px;
+}
+.join-title {
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #252432;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.join{
+    background-color: #9e9cee;
+    border: none;
+    max-width: 1140px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.item-title {
+    font-size: 80px;
+    font-weight: bold;
+    color: #1809ee;
+}
+.join-items{
+    display: flex;
+    justify-content: space-around
+}
+.item-description {
+    font-size: 20px;
+    color: #252432;
+    text-align: center;
+    padding-bottom: 50px;
 }
